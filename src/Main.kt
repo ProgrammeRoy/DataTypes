@@ -1,5 +1,15 @@
 fun main(args: Array<String>){
 
+//CONSTANT ni el tipo ni el valor cambian
+    val constante: Int
+    constante=1
+
+    val constante2=3
+
+//VARIABLE
+    var variable:Int = 3
+    variable = 2
+
 //INT
     var numInt1:Int
     numInt1=-10
@@ -60,4 +70,6 @@ fun main(args: Array<String>){
     var array= arrayOf(1,2,3,4,5,6,7,8,9)
     array[0]=20
     println(array[0])
+
+
 }
